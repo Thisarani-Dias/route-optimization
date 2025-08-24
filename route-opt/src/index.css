@@ -1,0 +1,11 @@
+#root, html, body { height: 100%; margin: 0; }
+.map-container { position: absolute; inset: 0; }
+.controls {
+  position: absolute; z-index: 2; top: 12px; left: 12px;
+  background: white; padding: 12px; border-radius: 10px; width: 320px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.12);
+}
+.controls input, .controls button, .controls textarea {
+  width: 100%; margin: 6px 0; padding: 8px; font-size: 14px;
+}
+.badge { font-size: 12px; opacity: .7; }
